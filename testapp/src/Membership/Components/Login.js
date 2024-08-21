@@ -1,4 +1,10 @@
-function Login() {
+//Lambda expression
+//Arrow function
+//Anonymous function
+//varible storing address of unnamed function 
+//( constfunction pointer)
+
+const Login=()=> {
     return (
       <div>
         <h2>Login</h2>
