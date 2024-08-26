@@ -25,8 +25,8 @@ import Dashboard from '../BI/Components/Dashboard';
 import LineChart from '../BI/Components/Charts/LineChart';
 import BarChart from '../BI/Components/Charts/BarChart';
 import PieChart from '../BI/Components/Charts/PieChart';
-//import MembershipForm from '../Membership/Components/MembershipForm';
-
+import MembershipForm from '../Membership/Components/MembershipForm';
+import CatalogCategory from '../Membership/Components/CatalogCategory';
 
 
 const AppRoutes = () => (
@@ -35,7 +35,8 @@ const AppRoutes = () => (
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
+          <Route path="register" element={<CatalogCategory />} />
+         
           <Route path="tap" element={<Tap />} />
           
           <Route path="products" element={<List />}/>
